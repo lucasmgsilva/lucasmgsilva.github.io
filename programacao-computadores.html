@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+
+    <!-- Estilos Customizados -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Fontes Customizadas -->
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134792511-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134792511-1');
+    </script>
+
+    <!-- Propriedades do Twitter Cards and Open Graph -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.lucasmgsilva.com/imagens/foto-pessoal.jpg" />
+    <meta property="og:url" content="https://www.lucasmgsilva.com/programacao-computadores.html"/>
+    <meta property="og:title" content="Prof. Lucas Matheus | Programação de Computadores" />
+    <meta property="og:description" content="Conteúdo da disciplina de Programação de Computadores ministrada pelo professor Lucas Matheus Gomes da Silva na Etec (Centro Paula Souza).">
+
+    <title>Prof. Lucas Matheus | Programação de Computadores</title>
+    <meta name="description" content="Conteúdo da disciplina de Programação de Computadores ministrada pelo professor Lucas Matheus Gomes da Silva na Etec (Centro Paula Souza).">
+    <meta name="robots" content="index">
+</head>
+<body>
+
+    <header class="sticky-top">
+        <nav class="navbar sticky-top navbar-expand-sm navbar-dark px-4">
+            <div class="container px-0">
+                <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navegacao-principal" aria-controls="navegacao-principal" aria-expanded="false" aria-label="Alterna Navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-2 order-sm-0" id="navegacao-principal">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link pl-0">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Disciplinas Ministradas
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item text-wrap" href="aplicativos-informatizados.html">Aplicativos Informatizados</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-wrap" href="linguagem-programacao-orientada-objetos.html">Linguagem de Programação Orientada a Objetos</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-wrap active" href="#">Programação de Computadores</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand order-0 order-sm-1 mr-0" href="#">Prof. Lucas Matheus</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="py-5 px-4 text-white bg-topo-rodape">
+        <div class="container">
+            <h2 class="d-none">Seção de Apresentação</h2>
+            <div class="row">
+                <div class="col-lg-6 d-flex order-1">
+                    <div class="align-self-center m-auto">
+                        <p class="text-monospace py-4 mb-0">
+                            <span class="var">var</span> professor = {<br/>
+                                <span class="ml-4 d-inline-block"><span class="laranja">nome</span>: <span class="cinza">"Lucas Matheus Gomes da Silva"</span>,</span><br/>
+                                <!--<span class="ml-4 d-inline-block"><span class="laranja">area_atuacao</span>: <span class="cinza">"Computação"</span>,</span><br/>-->
+                                <span class="ml-4 d-inline-block"><span class="laranja">trabalho</span>: {</span><br/>
+                                    <span class="ml-5 d-inline-block"><span class="laranja">cargo</span>: <span class="cinza">"Professor de Ensino Médio e Técnico"</span>,</span><br/>
+                                    <!--<span class="ml-5 d-inline-block"><span class="laranja">instituicao</span>: <span class="cinza"><a href="http://www.etec-novohorizonte.com.br" target="_blank">"Etec Profª Marinês Teodoro de Freitas Almeida"</a></span></span><br/>-->
+                                    <span class="ml-5 d-inline-block"><span class="laranja">instituicao</span>: <span class="cinza"><a href="https://www.cps.sp.gov.br/" target="_blank" rel="nofollow">"Centro Paula Souza"</a></span></span><br/>
+                                <span class="ml-4 d-inline-block">},</span><br/>
+                                <span class="ml-4 d-inline-block"><span class="laranja">graduacao</span>: {</span><br/>
+                                    <span class="ml-5 d-inline-block"><span class="laranja">curso</span>: <span class="cinza">"Análise e Desenvolvimento de Sistemas"</span>,</span><br/>
+                            <span class="ml-5 d-inline-block"><span class="laranja">instituicao</span>: <span class="cinza"><a href="http://ctd.ifsp.edu.br" target="_blank" rel="nofollow">"Instituto Federal de São Paulo"</a></span></span><br/>
+                                <span class="ml-4 d-inline-block">}</span><br/>
+                            };
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex order-0">
+                    <div class="align-self-center m-auto">
+                        <img id="foto-pessoal" src="imagens/foto-pessoal.jpg" alt="Foto do Lucas Matheus" class="w-100 rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 px-4 text-white bg-conteudo">
+            <div class="container">
+                <h2 class="d-none">Seção de Programação de Computadores</h2>
+                <div class="row">
+                    <div class="col text-center border border-dark rounded p-0">
+                        <blockquote class="blockquote p-2 mb-0">
+                            <h1 class="h2 mb-0">Programação de Computadores</h1>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="pt-5 px-4 text-white bg-conteudo">
+        <div class="container">
+            <h2 class="d-none">Seção de Informações da Disciplina</h2>
+            <div class="row">
+                <div class="col-12 col-lg-4 px-0 pr-lg-2">
+                    <h2 class="h4">Informações</h2>
+
+                    <p class="mt-3">
+                        <span class="font-weight-bold">Instrutores</span><br>
+                        Prof. Lucas Matheus e Prof. Leandro Spanghero.</p>
+
+                    <p class="mt-3">
+                        <span class="font-weight-bold">Local</span><br>
+                        Ibitinga/SP.
+                    </p>
+
+                    <p class="mt-3">
+                        <span class="font-weight-bold">Carga Horária</span><br>
+                        3 aulas semanais.</p>
+                </div>
+                <div class="col-12 col-lg-8 px-0 pl-lg-2 mt-2 mt-lg-0">
+                    <h2 class="h4 mb-0">Habilidades</h2>
+
+                    <div class="mt-3">
+                        <ul class="pl-3">
+                            <li>Utilizar técnicas de orientação a objetos para programação de código fonte.</li>
+                            <li>Conectar a aplicação ao Sistema Gerenciador de Banco de Dados.</li>
+                            <li>Compilar código fonte para depurar erros, gerar programas e realizar testes, conforme as especificações solicitadas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 px-1 pt-2 text-center">
+                    <a href="https://drive.google.com/file/d/1kRZQhBv1Sr2KJZjozUl1LKoLkHlAPuNm" class="btn btn-outline-warning" target="_blank" rel="nofollow">Plano de Curso de Informática Integrado ao Ensino Médio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 px-4 text-white bg-conteudo">
+        <div class="container">
+            <h2 class="d-none">Seção de Material da Disciplina</h2>
+            <div class="row">
+                <div class="col-12 px-0">
+                    <h2 class="h4">Material da Disciplina</h2>
+
+                    <table class="table table-light">
+                        <thead class="thead-dark">
+                            <tr class="">
+                                <th scope="col">#</th>
+                                <th scope="col">Descrição</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="text-black-50">
+                                <th scope="row">1</th>
+                                <td>Mais conteúdo será publicado futuramente...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 px-4 text-white bg-topo-rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 px-0">
+                    <p class="text-center text-md-left">Desenvolvido com <i class="fas fa-heart"></i> por Lucas Matheus.</p>
+                </div>
+                <div class="col-12 col-md-5 px-0 text-center text-md-right">
+                    <p class="h5 d-inline-block">
+                        <a href="https://www.facebook.com/lucasmgsilva" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/lucasmgsilva" target="_blank"><i class="pl-2 fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/lucasmgsilva98" target="_blank"><i class="pl-2 fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UCdgyvTqhzxsovy0TaxO2z_g?view_as=subscriber" target="_blank"><i class="pl-2 fab fa-youtube"></i></a>
+                        <a href="skype:lucas.matheus68" target="_blank"><i class="pl-2 fab fa-skype"></i></a>
+                    </p>
+                    <p class="h5 d-inline-block">
+                        <a href="https://open.spotify.com/user/ww62jf40m5ls8gvnxht0emu1b/playlist/73P4Gn0X6XF8m5sW5r9HzF?si=iTx7W7qKQV2hb0pUgEECAQ" target="_blank"><i class="pl-2 fab fa-spotify"></i></a>
+                        <a href="https://www.linkedin.com/in/lucasmgsilva/" target="_blank"><i class="pl-2 fab fa-linkedin"></i></a>
+                        <a href="https://github.com/lucasmgsilva" target="_blank"><i class="pl-2 fab fa-github"></i></a>
+                        <a href="mailto:lucasmgsilva@hotmail.com" target="_blank"><i class="pl-2 fas fa-envelope"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

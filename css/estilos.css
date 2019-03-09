@@ -1,0 +1,74 @@
+#foto-pessoal {
+    max-width: 375px;
+}
+@media (max-width: 768px){
+    #foto-pessoal {
+        max-width: 250px;
+    }
+}
+
+nav {
+    background-color: rgb(50, 54, 57);
+}
+
+span.var {
+    color: rgb(198, 117, 173);
+}
+
+span.laranja {
+    color: rgb(229, 159, 74);
+}
+
+span.cinza {
+    color: rgb(171, 178, 191);
+}
+
+p a,
+p a:visited,
+p a:link,
+tr a,
+tr a:visited,
+tr a:link{
+    text-decoration: none;
+    color: inherit;
+}
+tr a:hover {
+    text-decoration: underline;
+}
+
+footer p a:hover {
+    opacity: 0.7;
+}
+
+a.navbar-brand {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.bg-topo-rodape {
+    background-color: rgb(15, 21, 26);
+}
+
+.bg-conteudo {
+    background-color: rgb(40, 44, 48);
+}
+
+.btn {
+    width: auto;
+}
+@media (max-width: 767px) {
+    .btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 575px) {
+    a.dropdown-item {
+        white-space: nowrap !important;
+    }
+}
+
+.dropdown-item.active,
+.dropdown-item:active{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.05);
+}
