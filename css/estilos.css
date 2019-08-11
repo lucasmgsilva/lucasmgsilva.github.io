@@ -33,7 +33,7 @@ tr a:link{
     color: inherit;
 }
 tr a:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 footer p a:hover {
